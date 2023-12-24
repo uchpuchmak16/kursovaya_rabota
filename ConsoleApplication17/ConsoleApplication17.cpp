@@ -120,6 +120,11 @@ public:
                 print_length();
                 break;
             case 5:
+                Stack newStack;
+                copyStack(newStack);
+                std::cout << "Stack copied to new object." << std::endl;
+                break;
+            case 6:
                 std::cout << "Exiting the program" << std::endl;
                 exit(0);
             default:
